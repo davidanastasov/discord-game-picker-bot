@@ -8,7 +8,7 @@ module.exports = {
     clearGames(message.channel.id)
       .then((n) => {
         const embed = new MessageEmbed()
-          .setDescription(`Removed ${n} game${n > 1 ? "s" : ""}!`)
+          .setDescription(`Removed ${n} game${n === 1 ? "" : "s"}!`)
           .setColor(0xffff00);
 
         message.channel.send(embed);
