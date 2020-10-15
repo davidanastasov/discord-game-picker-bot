@@ -1,0 +1,16 @@
+{
+  "name": "discord-game-picker-bot",
+  "version": "0.1.0",
+  "main": "bot.js",
+  "author": "DavidAnastasov <davidanastasov@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0"
+  }
+}
